@@ -2,7 +2,7 @@ import React from "react";
 
 const ResultBox = () => {
   return (
-    <div className="bg-[rgb(247,246,252)] pb-5  mt-6 w-[350px] font-sans flex-col justify-center items-center rounded-xl border-[rgb(224,226,229)] border-[2px]">
+    <div className="bg-[rgb(247,246,252)] pb-5 mb-6 mt-6 w-[350px] font-sans flex-col justify-center items-center rounded-xl border-[rgb(224,226,229)] border-[2px]">
       <div className="flex-col text-center mb-10 justify-center  items-center">
         <img className="w-32 mx-auto -hue-rotate-60" src="/image1.png" alt="" />
         <p className="text-[rgb(90,95,188)] text-3xl font-semibold">

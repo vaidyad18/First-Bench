@@ -2,6 +2,8 @@ import Navbar from "./components/Navbar";
 import ResultBox from "./components/ResultBox";
 import CompareAccuracyBoxes from "./components/CompareAccuracyBoxes";
 import FourBoxes from "./components/FourBoxes";
+import GraphBox from "./components/GraphBox";
+import TimeTakenBox from "./components/TimeTakenBox";
 
 function App() {
   return (
@@ -16,6 +18,10 @@ function App() {
             <CompareAccuracyBoxes />
           </div>
           <FourBoxes/>
+          <div className="flex">
+            <GraphBox/>
+            <TimeTakenBox/>
+          </div>
         </div>
       </div>
     </div>
