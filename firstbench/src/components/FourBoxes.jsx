@@ -5,36 +5,36 @@ const FourBoxes = () => {
     <div className="flex font-sans gap-5 justify-center items-center mt-4">
       <div className="bg-white border-[rgb(224,226,229)] w-[196px] border-[2px] pb-5 p-2 rounded-xl">
         <div className="flex items-center gap-2 text-gray-400">
-          <i class="fa-solid fa-stairs"></i>
+          <i className="fa-solid fa-stairs"></i>
           <p className="font-[500]">Improvements</p>
         </div>
         <p className="text-sm font-[500] mt-3">Subject Understanding</p>
         <div className="text-white flex gap-1 flex-wrap mt-4 text-[0.48rem]">
-          <span className="bg-[rgb(28,185,180)] px-2 py-1 rounded-full">
+          <span className="bg-[rgb(28,185,180)] cursor-pointer px-2 py-1 rounded-full">
             Geography
           </span>
-          <span className="bg-[rgb(234,179,8)] px-2 py-1 rounded-full">
+          <span className="bg-[rgb(234,179,8)] cursor-pointer px-2 py-1 rounded-full">
             Politics
           </span>
-          <span className="bg-[rgb(28,185,180)] px-2 py-1 rounded-full">
+          <span className="bg-[rgb(28,185,180)] cursor-pointer px-2 py-1 rounded-full">
             Current Affairs
           </span>
-          <span className="bg-[rgb(185,28,28)] px-2 py-1 rounded-full">
+          <span className="bg-[rgb(185,28,28)] cursor-pointer px-2 py-1 rounded-full">
             General Studies
           </span>
-          <span className="bg-[rgb(28,185,180)] px-2 py-1 rounded-full">
+          <span className="bg-[rgb(28,185,180)] cursor-pointer px-2 py-1 rounded-full">
             Mathematics
           </span>
-          <span className="bg-[rgb(197,201,207)] px-2 py-1 rounded-full">
+          <span className="bg-[rgb(197,201,207)] cursor-pointer px-2 py-1 rounded-full">
             Social Studies
           </span>
-          <span className="bg-[rgb(185,28,28)] px-2 py-1 rounded-full">
+          <span className="bg-[rgb(185,28,28)] cursor-pointer px-2 py-1 rounded-full">
             English Literature
           </span>
-          <span className="bg-[rgb(234,179,8)] px-2 py-1 rounded-full">
+          <span className="bg-[rgb(234,179,8)] cursor-pointer px-2 py-1 rounded-full">
             Indian History
           </span>
-          <span className="bg-[rgb(28,185,180)] px-2 py-1 rounded-full">
+          <span className="bg-[rgb(28,185,180)] cursor-pointer px-2 py-1 rounded-full">
             Economics
           </span>
         </div>
@@ -42,7 +42,7 @@ const FourBoxes = () => {
 
       <div className="bg-white border-[rgb(224,226,229)] w-[196px] border-[2px] p-2 pb-4 rounded-xl">
         <div className="flex items-center gap-2  text-gray-400">
-          <i class="fa-regular fa-clock"></i>
+          <i className="fa-regular fa-clock"></i>
           <p className="font-[500]">Response Time</p>
         </div>
         <div className="mt-3">
@@ -70,11 +70,11 @@ const FourBoxes = () => {
 
       <div className="bg-white border-[rgb(224,226,229)] w-[196px] border-[2px] p-2 rounded-xl">
         <div className="flex items-center gap-2 text-gray-400">
-          <i class="fa-solid fa-stairs"></i>
+          <i className="fa-solid fa-stairs"></i>
           <p className="font-[500]">Approach Data</p>
         </div>
-        <div className="flex-col justify-center mt-[5px] items-center">
-          <div className="border-[rgb(206,205,239)] py-[4px] mb-[3px] px-[4px] border-[1px] rounded-[4px] flex justify-start gap-1 items-center">
+        <div className="flex-col justify-center mt-[5px]  items-center">
+          <div className="border-[rgb(206,205,239)] duration-150 hover:bg-[rgb(171,175,255)] py-[4px] mb-[3px] px-[4px] border-[1px] rounded-[4px] flex justify-start gap-1 items-center">
             <div className="bg-[rgb(227,225,245)] px-[3px] rounded-sm text-[rgb(90,95,188)] font-semibold">
               25<span className="text-[11px] font-bold text-gray-400">%</span>
             </div>
@@ -83,7 +83,8 @@ const FourBoxes = () => {
               <span className="text-[rgb(90,95,188)] text-[14px]"> Facts</span>
             </div>
           </div>
-          <div className="border-[rgb(206,205,239)] py-[4px] mb-[3px] px-[4px] border-[1px] rounded-[4px] flex justify-start gap-1 items-center">
+
+          <div className="border-[rgb(206,205,239)] duration-150 hover:bg-[rgb(171,175,255)] py-[4px] mb-[3px] px-[4px] border-[1px] rounded-[4px] flex justify-start gap-1 items-center">
             <div className="bg-[rgb(227,225,245)] px-[3px] rounded-sm text-[rgb(90,95,188)] font-semibold">
               32<span className="text-[11px] font-bold text-gray-400">%</span>
             </div>
@@ -95,7 +96,7 @@ const FourBoxes = () => {
               </span>
             </div>
           </div>
-          <div className="border-[rgb(206,205,239)] py-[4px] mb-[3px] px-[4px] border-[1px] rounded-[4px] flex justify-start gap-1 items-center">
+          <div className="border-[rgb(206,205,239)] duration-150 hover:bg-[rgb(171,175,255)] py-[4px] mb-[3px] px-[4px] border-[1px] rounded-[4px] flex justify-start gap-1 items-center">
             <div className="bg-[rgb(227,225,245)] px-[4px] rounded-sm text-[rgb(90,95,188)] font-semibold">
               19<span className="text-[11px] font-bold text-gray-400">%</span>
             </div>
@@ -107,7 +108,7 @@ const FourBoxes = () => {
               </span>
             </div>
           </div>
-          <div className="border-[rgb(206,205,239)] py-[4px] px-[4px] border-[1px] rounded-[4px] flex justify-start gap-1 items-center">
+          <div className="border-[rgb(206,205,239)] duration-150 hover:bg-[rgb(171,175,255)] py-[4px] px-[4px] border-[1px] rounded-[4px] flex justify-start gap-1 items-center">
             <div className="bg-[rgb(227,225,245)] px-[3px] rounded-sm text-[rgb(90,95,188)] font-semibold">
               24<span className="text-[11px] font-bold text-gray-400">%</span>
             </div>
@@ -121,7 +122,7 @@ const FourBoxes = () => {
 
       <div className="bg-white border-[rgb(224,226,229)] w-[196px] border-[2px] p-2 rounded-xl">
         <div className="flex items-center gap-2 text-gray-400">
-          <i class="fa-solid fa-stairs"></i>
+          <i className="fa-solid fa-stairs"></i>
           <p className="font-[500]">Suggestions</p>
         </div>
         <div className="flex justify-center mt-3 mb-8 gap-1 items-center">

@@ -29,9 +29,11 @@ const ResultBox = () => {
           <div className="flex justify-center  items-center gap-2 mr-2">
             <div className="border-gray-300 border-[0.07rem] h-10"></div>
             <div className="flex-col justify-center items-center">
-              <p className="bg-[rgb(0,148,145)] text-[0.6rem]  py-[0.1rem] px-[0.4rem] rounded-sm text-white font-semibold">
-                76%
-              </p>
+              <div className="mx-2">
+                <p className="bg-[rgb(0,148,145)] text-[0.6rem]  py-[0.1rem] px-[0.4rem] rounded-sm text-white font-semibold">
+                  76%
+                </p>
+              </div>
               <p className="text-[rgb(0,148,145)] text-[0.6rem] font-semibold">
                 ACCURACY
               </p>
@@ -75,7 +77,7 @@ const ResultBox = () => {
           Improve your score by practising more.
         </div>
 
-        <button className="my-5 py-1 text-sm rounded-md bg-[rgb(90,95,188)] text-white font-semibold w-full">
+        <button className="my-5 py-1 text-sm rounded-md cursor-pointer duration-150 hover:bg-[rgb(73,77,160)] bg-[rgb(90,95,188)] text-white font-semibold w-full">
           Practice more
         </button>
       </div>
@@ -87,13 +89,13 @@ const ResultBox = () => {
         </div>
 
         <div className="mx-6">
-          <button className="my-6 py-1 flex justify-center items-center gap-2 rounded-md bg-[rgb(90,95,188)] text-white font-semibold w-full">
-            <i class="fa-solid text-white text-sm fa-file-import"></i> Visit
+          <button className="my-6 py-1 flex duration-150 hover:bg-[rgb(73,77,160)] justify-center items-center gap-2 rounded-md bg-[rgb(90,95,188)] text-white font-semibold w-full">
+            <i className="fa-solid text-white text-sm fa-file-import"></i> Visit
           </button>
         </div>
 
         <div className="flex gap-1 mb-3">
-          <i class="text-[0.8rem] mt-1 text-gray-400 fa-solid fa-circle-info"></i>
+          <i className="text-[0.8rem] cursor-pointer mt-1 text-gray-400 fa-solid fa-circle-info"></i>
           <div className="text-[0.64rem] text-gray-400">
             Instructions for how to upload your handwritten material in given
           </div>
