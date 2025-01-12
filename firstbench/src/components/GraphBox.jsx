@@ -2,7 +2,7 @@ import React from "react";
 
 const GraphBox = () => {
   return (
-    <div className="bg-white border-[rgb(224,226,229)] border-[2px] w-[412px] mt-4 p-2 rounded-xl">
+    <div className="bg-white border-[rgb(224,226,229)] -ml-[480px] sm:ml-0 xl:scale-100 scale-50 sm:scale-75 border-[2px] w-[412px] -mt-[90px] sm:-mt-[150px] lg:-mt-12 xl:mt-4 p-2 rounded-xl">
       <div className="flex items-center gap-2 text-gray-400">
         <i className="fa-solid fa-code-compare"></i>
         <p className="font-[500]">Compare Accuracy</p>

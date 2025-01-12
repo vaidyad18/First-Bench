@@ -2,9 +2,9 @@ import React from 'react'
 
 const TimeTakenBox = () => {
   return (
-    <div className="bg-white ml-[20px] border-[rgb(224,226,229)] pb-3 border-[2px] w-[412px] mt-4 p-2 rounded-xl">
+    <div className="bg-white -ml-[180px] sm:-ml-24 lg:-ml-20 xl:ml-[20px] xl:scale-100 scale-50 sm:scale-75 border-[rgb(224,226,229)] pb-3 border-[2px] w-[412px] sm:-mt-[150px] -mt-[90px] lg:-mt-12 xl:mt-4 p-2 rounded-xl">
       <div className="flex items-center gap-2 text-gray-400">
-        <i className="fa-solid fa-code-compare"></i>
+      <i className="fa-regular fa-clock"></i>
         <p className="font-[500]">Time Taken</p>
       </div>
 
